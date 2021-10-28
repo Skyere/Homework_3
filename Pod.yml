@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bot
+spec:
+  containers:
+  - name: homework
+    image: skyere/discordbot:0.0.2
+
